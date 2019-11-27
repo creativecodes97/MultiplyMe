@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.creativecodes.multiplyme.Display_table">
+
+
+    <TextView
+        android:id="@+id/textViewresulthead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10sp"
+        android:textSize="20sp"
+        android:background="@drawable/custom_edittext"
+        android:textStyle="bold"
+        android:layout_margin="10sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="LIST OF TABLE" />
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="10sp"
+        android:paddingRight="10sp"
+        android:id="@+id/listtable"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5.0sp"
+        android:layout_below="@+id/textViewresulthead"
+        android:layout_alignParentStart="true">
+
+    </ListView>
+
+
+
+</RelativeLayout>
